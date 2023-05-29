@@ -5,7 +5,7 @@ you have access to the cathedral
 server, then log in, upload the
 following files to one folder
 
-Compile an object file "Stack.o" from your "Vector.cpp" :
+Compile an object file "Vector.o" from your "Vector.cpp" :
 - g++ -c Vector.cpp -o Vector.o
 
 
