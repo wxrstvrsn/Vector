@@ -1,0 +1,19 @@
+# How to run tests
+
+If you are a MIREA student and
+you have access to the cathedral
+server, then log in, upload the
+following files to one folder
+
+Compile an object file "Stack.o" from your "Vector.cpp" :
+- g++ -c Vector.cpp -o Vector.o
+
+
+Then we check that the test and the object are in the
+same directory, and from it we make
+- g++ Vector.o -o test -L./ -lTest.a
+
+Then ./test
+
+
+GL
